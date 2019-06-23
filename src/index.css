@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Gothic A1', sans-serif;
+  background-color: #f7f6f6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "Result TeamList";
+  grid-gap: 5%;
+
+  max-width: 50%;
+  background-color: white;
+  margin: 1% auto;
+
+  padding-top: 20px;
+  border: 1px solid #ddd;
+
+  max-height: 100%;
+}
+
+.Result { 
+  grid-area: Result;
+  position: relative;
+}
+
+.resultHeader{
+  height: 40px;
+  max-width: 100%;
+  margin: 0;
+  padding-top: 3.5rem;
+  padding-left: 1rem;
+  font-size: 140%;
+  white-space: nowrap;
+
+}
+
+.resultText{
+  padding-left: 15px;
+}
+
+.Result > h3{
+  padding: 50px;
+}
+
+.TeamList { 
+  grid-area: TeamList;
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  max-height: 100%;
+  position: relative;
+}
+
+#searchDiv {
+  position: sticky;
+  top: 0;
+  margin-bottom: 5px;
+
+}
+
+#searchBar{
+  text-align: center;
+}
+
+
+.teamBlock{
+  margin: 0;
+  border: 1px solid white;
+  width: 95%;
+  margin: 0 auto;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+  
+
+  .grid-container {
+    max-width: 88%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 1fr;
+    grid-template-areas: "Result" "TeamList";
+    margin: 0 auto;
+    height: 90vh;
+    grid-gap: 0px;
+  }
+
+  .Result{
+    border-bottom: 1px rgb(36, 36, 36) solid;
+    margin-bottom: -4px;
+  }
+
+  #searchDiv{
+    background-image: linear-gradient(to bottom, rgba(12, 39, 39, 0.541), rgba(255,255,255,0));
+  }
+
+  #searchBar{
+    margin-bottom: 1px;
+    margin: auto;
+    padding: 6px;
+    max-height: 3rem;
+    width: 60%;
+    border-top: 1px white solid;
+  }
+
+  .teamBlock{
+    margin: auto;
+    padding: 6px;
+    max-height: 3rem;
+    vertical-align: auto;
+  }
+  
+
+
+
+}
