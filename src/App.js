@@ -1,4 +1,5 @@
 import React  from 'react';
+import { HashRouter, Route, Link } from "react-router-dom";
 import './App.css';
 import TeamBlock from './TeamBlock';
 import ResultBlock from './ResultBlock';
@@ -98,6 +99,7 @@ class App extends React.Component {
 
 
     return (
+	<HashRouter basename='/'>
       <div className="grid-container">
         
         <div className="Result">
@@ -109,6 +111,7 @@ class App extends React.Component {
           {TeamBlocks}
         </div>
       </div>
+	  </HashRouter>
     );
   }
 }
