@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/footballteamcolours/precache-manifest.73da7014e427a9c3fb9a09180ba9128e.js"
+  "/footballteamcolours/precache-manifest.0456f4c6b605b4ea2546d464836aeed5.js"
 );
 
 workbox.clientsClaim();
