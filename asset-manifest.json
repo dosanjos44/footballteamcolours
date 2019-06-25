@@ -1,13 +1,13 @@
 {
-  "main.css": "/footballteamcolours/static/css/main.17b57bf1.chunk.css",
-  "main.js": "/footballteamcolours/static/js/main.8ceffee9.chunk.js",
-  "main.js.map": "/footballteamcolours/static/js/main.8ceffee9.chunk.js.map",
+  "main.css": "/footballteamcolours/static/css/main.1bdefe15.chunk.css",
+  "main.js": "/footballteamcolours/static/js/main.d43b2d0b.chunk.js",
+  "main.js.map": "/footballteamcolours/static/js/main.d43b2d0b.chunk.js.map",
   "static/js/1.bed54ca4.chunk.js": "/footballteamcolours/static/js/1.bed54ca4.chunk.js",
   "static/js/1.bed54ca4.chunk.js.map": "/footballteamcolours/static/js/1.bed54ca4.chunk.js.map",
   "runtime~main.js": "/footballteamcolours/static/js/runtime~main.7bb69b52.js",
   "runtime~main.js.map": "/footballteamcolours/static/js/runtime~main.7bb69b52.js.map",
-  "static/css/main.17b57bf1.chunk.css.map": "/footballteamcolours/static/css/main.17b57bf1.chunk.css.map",
+  "static/css/main.1bdefe15.chunk.css.map": "/footballteamcolours/static/css/main.1bdefe15.chunk.css.map",
   "index.html": "/footballteamcolours/index.html",
-  "precache-manifest.41e7dfd853f08d81d2319d357e550ad1.js": "/footballteamcolours/precache-manifest.41e7dfd853f08d81d2319d357e550ad1.js",
+  "precache-manifest.3d58dff5f0774cee054d96b4a815f19c.js": "/footballteamcolours/precache-manifest.3d58dff5f0774cee054d96b4a815f19c.js",
   "service-worker.js": "/footballteamcolours/service-worker.js"
 }
